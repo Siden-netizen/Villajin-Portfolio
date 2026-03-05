@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+    content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">
+            Zedaine <span>Villajin</span>
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">My Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="gradient-btn">Contact Me</button>
+        </header>
+
+        <section class="home" id="home">
+    <div class="home-content">
+        <h1>Hi, It's <span>Zedaine</span></h1>
+        <h3>
+             I'm a <span>Web Developer</span>
+        </h3>
+        <p>I am a Computer Science student who is passionate about technology and problem-solving. 
+            I enjoy learning how software works and how different programming languages are used to build websites, 
+            applications, and systems. I have basic knowledge in HTML, CSS, JavaScript, Python, and C programming. 
+            I am also familiar with databases and simple system development. Through my projects and activities, 
+            I continue to improve my coding, debugging, and logical thinking skills. </p>
+       
+        <div class="social-icons">
+            <a href="https://www.facebook.com/share/1CRZejQCUM/" target="_blank" rel="noopener noreferrer"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.tiktok.com/@zedainee" target="_blank" rel="noopener noreferrer"><i class="bx bxl-tiktok"></i></a>
+            <a href="https://www.instagram.com/sidencdrc" target="_blank" rel="noopener noreferrer"><i class="bx bxl-instagram-alt"></i></a>
+            <a href="https://discord.com/users/zedaine23" target="_blank" rel="noopener noreferrer"><i class="bx bxl-discord-alt"></i></a>
+        </div>
+        
+    <div class="btn-group">
+        <a href="#" class="btn">Hire</a>
+        <a href="#contact" class="btn">Contact</a>
+     </div>
+    </div>
+
+    <div class="home-img"> 
+        <img src="image.jpg" alt="">
+    </div>
+    
+</section>
+
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="image.jpg" alt="">
+  </div>
+  <div class="about-content">
+    <h2>About <span>Me</span></h2>
+    <p>
+            My goal is to become a skilled software developer and create systems that are useful and user-friendly. 
+            I am interested in web development, UI/UX design, and learning more about data structures and algorithms. 
+            I am always willing to learn new technologies and improve myself through practice and experience. 
+            I believe that continuous learning and hard work will help me grow in the field of Computer Science. </p>
+    <a href="##" class="btn">Read More</a>
+  </div>
+</section>
+ <section class="projects" id="projects">
+
+  <h2 class="heading">Projects</h2>
+
+  <div class="projects-box">
+    
+    <div class="project-card" onclick="openVideoModal('Video1.mp4')">
+      <div class="img-wrapper">
+        <img src="project1.jpg" alt="Project 1">
+        <div class="play-overlay"><i class="bx bx-play-circle"></i></div>
+      </div>
+
+      <h3>Project 1</h3>
+      <p>this is our project on embedded system and we do coding and debugging in this project.</p>
+      <div class="btn">Review Project</div>
+    </div>
+
+    <div class="project-card" onclick="openVideoModal('pic2.png')">
+      <div class="img-wrapper">
+        <img src="project2.jpg" alt="Project 2">
+        <div class="play-overlay"><i class="bx bx-play-circle"></i></div>
+      </div>
+
+      <h3>Project 2</h3>
+      <p>in this project we do pitching, 
+        and it's like defense because it's have so many funnelist at that time. 
+        Also we got 3rd place on the pitching</p>
+      <div class="btn">Review Project</div>
+    </div>
+
+    <div class="project-card" onclick="openVideoModal('Video2.mp4')">
+      <div class="img-wrapper">
+        <img src="project3.jpg" alt="Project 3">
+        <div class="play-overlay"><i class="bx bx-play-circle"></i></div>
+      </div>
+
+      <h3>Project 3</h3>
+      <p>in this project we do video pitch and we discuss about prototype and we discuss the solution and why it works on our project.</p>
+      <div class="btn">Review Project</div>
+    </div>
+
+    <div class="project-card" onclick="openVideoModal('Video4.mp4')">
+      <div class="img-wrapper">
+        <img src="project4.jpg" alt="Project 4">
+        <div class="play-overlay"><i class="bx bx-play-circle"></i></div>
+      </div>
+
+      <h3>Project 4</h3>
+      <p>in  this project we dance at auditorium and we got 2nd place. That dance is cheerdance and I do cartwheel and any stances.</p>
+      <div class="btn">Review Project</div>
+    </div>
+
+    <div class="project-card" onclick="openVideoModal('Video5.mp4')">
+      <div class="img-wrapper">
+        <img src="project5.jpg" alt="Project 5">
+        <div class="play-overlay"><i class="bx bx-play-circle"></i></div>
+      </div>
+
+      <h3>Project 5</h3>
+      <p>in this project we film and this subject is living in the IT era. we edit our vids and we make film.</p>
+      <div class="btn">Review Project</div>
+    </div>
+
+    <div class="project-card" onclick="openVideoModal('Video6.mp4')">
+      <div class="img-wrapper">
+        <img src="project6.jpg" alt="Project 6">
+        <div class="play-overlay"><i class="bx bx-play-circle"></i></div>
+      </div>
+
+      <h3>Project 6</h3>
+      <p>During our NSTP-CWTS time, we looked after the children and played with them. 
+        We made them happy and fed them and they also became dear to us,
+        I made a spiderman costume for them and that is literacy training service</p>
+      <div class="btn">Review Project</div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+<h2 class="heading">Contact <span>Me</span></h2>
+
+<form action="https://formsubmit.co/zedainevillajin@gmail.com" method="POST">
+  <!-- Formsubmit hidden config -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_subject" value="New message from Portfolio!">
+  <input type="hidden" name="_autoresponse" value="Thank you for reaching out! I'll get back to you soon. - Zedaine">
+
+  <div class="input-group">
+    <div class="input-box">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+    </div>
+    <div class="input-box">
+      <input type="number" name="phone" placeholder="Phone Number" />
+      <input type="text" name="subject" placeholder="Subject" required />
+    </div>
+    <div class="input-group-2">
+      <textarea name="message" placeholder="Your Message" cols="30" rows="10" required></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </div>
+  </div>
+</form>
+</section>
+
+<footer class="footer">
+  <div class="social-icons">
+    <a href="https://www.facebook.com/share/1CRZejQCUM/" target="_blank" rel="noopener noreferrer">
+      <i class="bx bxl-facebook"></i>
+    </a>
+    <a href="https://www.tiktok.com/@zedainee" target="_blank" rel="noopener noreferrer">
+      <i class="bx bxl-tiktok"></i>
+    </a>
+    <a href="https://www.instagram.com/sidencdrc" target="_blank" rel="noopener noreferrer">
+      <i class="bx bxl-instagram-alt"></i>
+    </a>
+    <a href="https://discord.com/users/zedaine23" target="_blank" rel="noopener noreferrer">
+      <i class="bx bxl-discord-alt"></i>
+    </a>
+  </div>
+      <ul class="list">
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <p class="copyright">
+        &copy; Zedaine Villajin | All Rights Reserved
+      </p>
+
+
+</footer>
+
+
+<!-- Video Modal -->
+  <div class="video-modal" id="videoModal" onclick="closeVideoModalOutside(event)">
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeVideoModal()"><i class="bx bx-x"></i></button>
+      <div class="video-container">
+        <iframe id="videoFrame" src="" frameborder="0" allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+        </iframe>
+      </div>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
